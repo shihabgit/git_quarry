@@ -1,0 +1,83 @@
+@charset "utf-8";
+.shortcut_menu_container {
+    clear: both;
+    height: 55px;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #000;
+    font-family: Sreda;
+    font-size: 10pt;
+    text-align: left;
+    background: -webkit-linear-gradient(#E4CBB1, #C96); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#E4CBB1, #C96); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#E4CBB1, #C96); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#E4CBB1, #C96); /* Standard syntax (must be last) */
+    color: #FFF;
+    /* [disabled]margin-bottom: 10px; */
+}
+.shortcut_menu_container .shortcut_menu {
+    border-left: 1px solid #999;
+    border-right: 1px solid #000;
+    height: 55px;
+    /* [disabled]padding: 10px; */
+}
+
+.shortcut_menu_container .left{
+    float: left;    
+}
+
+.shortcut_menu_container .right{
+    float: right;    
+}
+
+.shortcut_menu_container .menu_img {
+    float: left;
+    margin: 5px;
+}
+.shortcut_menu_container .menu_name {
+    float: left;
+    font-family: Sreda;
+    font-size: 20px;
+    margin: 13px 5px 0px 5px;
+}
+.shortcut_menu_container .menu_img img {
+    height: 45px;
+    width: 45px;
+}
+.shortcut_menu_container .action {
+    float: left;
+    margin: 5px;
+}
+.shortcut_menu_container .action_img {
+    margin-top: 2px;
+}
+.shortcut_menu_container .action_img img {
+    height: 20px;
+    width: 20px;
+}
+.shortcut_menu a{
+    text-decoration: none;
+}
+
+.shortcut_menu .roundNumber{
+    background-size:cover;
+    padding: 3px;  
+    float: left;
+    margin: 3px;
+    margin-top: 9px;
+    height: 30px;
+    width:30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.shortcut_menu .blue{
+    /*background: #f5aca6 url('../../../images/number_blue.png')  no-repeat 5px 50%;*/
+    background-image: url('../../images/number_blue.png'); 
+}
+
+
+.shortcut_menu .red{
+    /*background: #f5aca6 url('../../../images/number_red.png')  no-repeat 5px 50%;*/
+    background-image: url('../../images/number_red.png');
+
+}

@@ -1,0 +1,383 @@
+@charset "utf-8";
+#dv_bill {
+	/* [disabled]width: 1084px; */
+	background-color: #000;
+	color: #3C9;
+	display: inline-block;
+	border: #8F6030 2px solid;
+	padding: 10px;
+}
+#dv_bill #p_bill_type {
+	color: #FFF;
+	text-align: center;
+	vertical-align: middle;
+	margin: 10px 0px;
+	padding: 5px;
+	background: -webkit-linear-gradient(#099, #005353); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#099, #005353); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#099, #005353); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#099, #005353); /* Standard syntax (must be last) */
+}
+
+#dv_bill #p_bill_type #blname{
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 16pt;
+	font-style: normal;
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: #FFF;
+	text-align: center;
+}
+
+#dv_bill #p_bill_type #bill_left {
+    background: url("../../images/bill_left.png") no-repeat scroll 4px 50%;
+    padding-left: 24px;
+	margin-right:30px;
+	float:left;
+}
+
+#dv_bill #p_bill_type #bill_right {
+    background: url("../../images/bill_right.png") no-repeat scroll 4px 50%;
+    padding-left: 24px;
+	margin-left:30px;
+	float:right;
+}
+
+#dv_bill #bill_head {
+	font-size: 13px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+#dv_bill #bill_body {
+	width: 100%;
+	text-align: center;
+}
+
+#dv_bill .top_head_col {
+	float: left;
+	margin-right: 80px;
+}
+
+#dv_bill .spn_bill_no {
+	color: #0CF;
+    background: url("../../images/bill_no.png") no-repeat scroll 4px 50%;
+    padding-left: 24px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: bolder;
+}
+
+#dv_bill .spn_ref_no {
+	color: #0CF;
+    background: url("../../images/bill_ref.png") no-repeat scroll 4px 50%;
+    padding-left: 24px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: bolder;
+}
+
+#dv_bill .spn_date {
+    color: #0CF;
+    background: url("../../images/calendar.png") no-repeat scroll 4px 50%;
+    padding-left: 24px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+#dv_bill .spn_tax {
+    color: #0CF;
+    background: url("../../images/tax.png") no-repeat scroll 4px 50%;
+    padding-left: 24px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+#dv_bill .spn_tax_no {
+    color: #0CF;
+    background: url("../../images/tax_no.png") no-repeat scroll 4px 50%;
+    padding-left: 24px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+#dv_bill .tbl_botom_head > tbody > tr > td{
+	padding: 5px;
+	border: 1px solid #8F6030;
+	border-radius: 4px;
+	border-style: groove;
+	vertical-align: top;
+}
+#dv_bill #bill_head  input[type=text] {
+	width: 110px;
+	font-size: 15px;
+	background-color: #333;
+	border: 1px solid #8F6030;
+	font-family: monospace;
+	border-radius: 3px;
+	color: #FFF;
+	padding : 0 5px;
+}
+#dv_bill #bill_head  select,
+#dv_bill #bill_head  textarea
+ {
+	width: 150px;
+	font-size: 15px;
+	background-color: #333;
+	border: 1px solid #8F6030;
+	font-family: monospace;
+	border-radius: 3px;
+	color: #FFF;
+	padding: 0 5px;
+}
+
+
+
+#dv_bill #bill_head  input[type=text]:focus,
+#dv_bill #bill_head  select:focus,
+#dv_bill #bill_head  textarea:focus
+{
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0px 0px 20px 0px #FFF;
+    border-width: 1px;
+    background-color: #FFF;
+    color:#000;
+}
+
+#dv_bill .clear_boath{
+	clear:both;
+}
+#dv_bill  .dv_vown {
+	margin: 2px;
+
+}
+#dv_bill .dv_vown .vown_2 {
+	color: #FFF;
+}
+
+#dv_bill #bill_body .tbl_bill_body > tbody > tr > td > input[type=text],
+#dv_bill #bill_body .tbl_bill_body > tbody > tr > td > select
+{
+	font-size: 15px;
+	background-color: #333;
+	font-family: monospace;
+	color: #FFF;
+	padding : 0 5px;
+	height: 18px;
+	border: none;
+	text-align: center;
+}
+#dv_bill #bill_body .tbl_bill_body > tbody > tr > td > input[type=text]:focus,
+#dv_bill #bill_body .tbl_bill_body > tbody > tr > td > select:focus
+{
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0px 0px 20px 0px #FFF;
+    border-width: 1px;
+    background-color: #FFF;
+    color:#000;
+}
+
+#dv_bill .tbl_bill_body {
+	/* [disabled]width: 100%; */
+	border-collapse: collapse;
+	background-color: #333;
+}
+
+#dv_bill .tbl_bill_body > tbody > tr > td {
+	border: 1px solid #099;
+	padding: 0px;
+	font-size: 13px;
+	color: #FFF;
+}
+#dv_bill #bill_body #bdybox {
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	display: table;
+	height: 180px;
+	overflow: scroll;
+}
+#dv_bill  .tbl_bill_body thead tr th{
+	background: -webkit-linear-gradient(#099, #333); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#099, #333); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#099, #333); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#099, #333); /* Standard syntax (must be last) */
+	border: 1px solid #099;
+	color: #00FFFF;
+	font-family: Sreda;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	height: 25px;
+}
+
+#dv_bill .tbl_bill_body tbody tr .slno {
+	font-family: Sreda;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bolder;
+	font-variant: normal;
+	color: #F60;
+	float: right;
+	padding: 0 5px;
+}
+
+#dv_bill .tbl_bill_body tfoot > tr > td {
+	border: none;
+	padding: 0px;
+	font-size: 13px;
+	color: #FFF;
+}
+
+
+#dv_bill  .tbl_bill_body tfoot  .adtnl_title {
+	margin: 0px;
+	padding: 2px 1px 1px 1px;
+	font-size: 12px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	background-color: #006262;
+}
+#dv_bill .tbl_bill_body tfoot .dv_additionals {
+	/* [disabled]padding-left: 109px; */
+	margin-left: 110px;
+	border-left: 1px solid #099;
+	border-right: 1px solid #099;
+}
+
+
+
+#dv_bill .tbl_bill_body .tbl_additive > tbody > tr > td,
+#dv_bill .tbl_bill_body .tbl_pay > tbody > tr > td
+{
+	padding: 2px 8px;
+	
+}
+
+
+#dv_bill  .tbl_bill_body tfoot input[type=text]
+{
+	font-size: 15px;
+	background-color: #000;
+	font-family: monospace;
+	color: #FFF;
+	padding : 0 5px;
+	height: 18px;
+	text-align: center;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #099;
+	border-left-color: #099;
+	border-right-color: #005E5E;
+	border-bottom-color: #005E5E;
+}
+#dv_bill  .tbl_bill_body tfoot input[type=text]:focus
+{
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0px 0px 20px 0px #FFF;
+    border-width: 1px;
+    background-color: #FFF;
+    color:#000;
+}
+
+#dv_bill  .tbl_bill_body  .nTotal_text {
+	font-family: Sreda;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bolder;
+	font-variant: normal;
+	text-transform: uppercase;
+	color: #FC9;
+}
+
+#dv_bill  .tbl_bill_body  .nTotal_val {
+	font-family: Sreda;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bolder;
+	font-variant: normal;
+	text-transform: uppercase;
+	color: #FC9;
+}
+
+#dv_bill  .tbl_bill_body  .dv_pay {
+	margin-left: 110px;
+	border: 1px solid;
+	border-color: #099;
+	border-top: none;
+	margin-bottom: 5px;
+	background-color: #006262;
+}
+#dv_bill .tbl_bill_body  .dv_pay  .spn_pay {
+	color: #FFF;
+	font-size: 12px;
+	padding: 5px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#dv_bill #bill_head #top_head {
+	border-top-width: 2px;
+	border-top-style: inset;
+	border-top-color: #8F6030;
+	margin: 5px 6px;
+	padding: 10px 5px 0px 5px;
+}
+#dv_bill  .tbl_bill_body .adtnl_title .adtl {
+	float: left;
+	margin-left: 20px;
+}
+#dv_bill .tbl_bill_body  .adtnl_title .add_img {
+	float: left;
+	margin-left: 5px;
+	cursor: pointer;
+	margin-top: 2px;
+}
+#dv_bill #bill_foot {
+	text-align: right;
+	padding-right: 20px;
+	background: -webkit-linear-gradient(#099, #005353); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#099, #005353); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#099, #005353); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#099, #005353); /* Standard syntax (must be last) */
+}
+#dv_bill #bill_foot .ntbaltxt {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 25px;
+	line-height: 10px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: #FC9;
+	margin-right: 40px;
+}
+#dv_bill #bill_foot .ntbalval {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 25px;
+	color: #FC9;
+}
+#dv_bill  .tbl_bill_body .row_remvr {
+	float: left;
+	margin: 2px 3px;
+}
+#dv_bill .tbl_bill_body #ddtv {
+	background-color: #006262;
+	border-bottom: #333 1px solid;
+	padding: 2px 0px;
+}
+#dv_bill .tbl_bill_body #adtv {
+	background-color: #006262;
+	border-bottom: #333 1px solid;
+	padding: 2px 0px;
+}

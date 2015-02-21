@@ -1,0 +1,53 @@
+.print_container{
+        background-color: white;
+        padding: 10px;
+        color:black;
+        width: 215mm;   /* 210mm is the width of A4 sheet and 5mm is to occuppy vertical scroll bar */
+    }
+
+    .print_container #print_p{
+        background-color: #759159;
+        margin: 0px;
+        margin-bottom: 10px;
+        padding: 5px;
+        color: white;
+    }
+    
+    
+
+    .print_container #pageCount{
+        color: #E70;
+        font-family: sans-serif;
+        font-size: 18px;
+        text-align: right;
+        padding: 2px;
+        padding-right: 10px;
+        margin: 0px;
+        margin-bottom: 10px;
+        background-color: #CFDBC4;
+    }
+
+    
+    .print_container .btn{
+        margin: 0px;
+        color: #FFFFFF;
+        font-family: Sreda;
+        font-size: 10pt;
+        text-align: center;	/*#759159*/
+        background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#759159), to(#AABE96)); /* Safari 5.1, Chrome 10+ */
+        background: -webkit-linear-gradient(top, #759159, #AABE96); /* Firefox 3.6+ */
+        background: -moz-linear-gradient(top, #759159, #AABE96); /* IE 10 */
+        background: -ms-linear-gradient(top, #759159, #AABE96); /* Opera 11.10+ */
+        background: -o-linear-gradient(top, #759159, #AABE96);
+        border-top:  1px solid #CFDBC4;
+        border-right: 1px solid #586D43;
+        border-bottom: 1px solid #586D43;
+        border-left: 1px solid #CFDBC4;
+        padding: 3px 10px;
+    } 
+
+    .print_container .btn:hover{
+        color: #FFF;
+        text-shadow: 5px 5px 10px #FFF;
+        background-color: #617849;
+    }

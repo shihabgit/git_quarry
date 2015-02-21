@@ -1,0 +1,60 @@
+/*
+Sources from 
+1. http://www.yuiblog.com/blog/2010/11/22/css-quick-tip-css-arrows-and-shapes-without-markup/
+2. http://blog.crowdint.com/2012/10/03/draw-arrows-and-pretty-tooltip-boxes-with-pure-css.html
+*/
+
+.dialog-box-container
+{
+    position: relative;
+}
+
+
+
+
+.dialog-box-border
+{   position: absolute;
+    text-align: left;
+    color: #A70000;
+    border-radius:4px;
+    font-family:Tahoma,Geneva,Arial,sans-serif;font-size:11px;
+    padding:3px 2px 2px 25px;
+    margin-top:-5px;
+    margin-left: 10px;
+    background: #f5aca6 url('../images/error.png')  no-repeat 5px 35%;
+    border:1px solid #A70000;
+    min-height: 20px;
+    display: inline-block;
+    z-index: 10;
+    white-space: nowrap
+}
+
+
+/* Outer arrow. it will displayed as a border over inner arrow.*/
+.dialog-box-border:before
+{
+    content: ' ';
+    position: absolute;
+    top: -16px;
+    left: 16px;
+    border-color: transparent transparent #A70000 transparent;
+    border-style: solid;
+    border-width: 8px;
+    width: 0;
+    height: 0;
+}
+
+/* Inner arrow.*/
+.dialog-box-border:after
+{
+    content: ' ';
+    position: absolute;
+    top: -14px;
+    left: 16px;
+    border-color: transparent  transparent #f5aca6 transparent;
+    border-style: solid;
+    border-width: 7px;
+    width: 0;
+    height: 0;
+}
+

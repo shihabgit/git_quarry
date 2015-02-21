@@ -1,0 +1,579 @@
+@charset "utf-8";
+.dv-bottom-content #tile_container {
+    clear: both;
+    min-height: 500px;
+    max-height: 500px;
+    overflow: scroll;
+    padding: 0px;
+    margin-top: 5px;
+    width: 100%;
+    color: #F9C;
+    background-color: #121212;
+    /*background-color: red;*/
+}
+#tile_container #tbl_tile {
+    border-collapse: collapse;
+}
+
+/*
+#tile_container #tbl_tile tr:nth-child(even) .tile{
+    background: -webkit-linear-gradient(#240000, #6F0000, #240000); 
+    background: -o-linear-gradient(#240000, #6F0000, #240000); 
+    background: -moz-linear-gradient(#240000, #6F0000, #240000);
+    background: linear-gradient(#240000, #6F0000, #240000); 
+} 
+*/
+
+#tile_container .tile {
+    padding: 5px;
+    background: -webkit-linear-gradient(#333, #000, #333); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#333, #000, #333); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#333, #000, #333); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#333, #000, #333); /* Standard syntax (must be last) */
+    border: 1px solid;
+    border-color: #121212;
+    margin: 1px 0px;
+}
+
+#tile_container .tile hr{
+    border: #4F5155 1px solid;
+}
+
+
+#tile_container .pcntg {
+    font-family: serif;
+}
+
+
+#tile_container .seperator {
+    color: #F9C;
+}
+
+
+
+
+
+#tile_container #tbl_tile > tbody > tr > td {
+    width:33.5%;
+}
+
+#tile_container #tbl_tile > tbody > tr > td:last-child {
+    /*padding-right: 2px;*/
+}
+#tile_container #tbl_tile > tbody > tr:last-child > td {
+    /*padding-bottom: 2px;*/
+}
+#tile_container .tile .tile_name {
+    text-align: center;
+    font-size: 18px;
+    padding: 2;
+    margin: 0;
+    font-family: cursive;
+    padding-top: 0px;
+    font-weight: bolder;
+}
+
+
+#tile_container .main_title_active {
+    color: #FFF;
+}
+
+#tile_container .main_name2:hover {
+    text-shadow: 5px 5px 10px #FFF;
+}
+#tile_container .active {
+    color: #E4CBB1;
+}
+
+#tile_container .inactive {    
+    color: #ff6600;
+    text-decoration: line-through;
+}
+
+#tile_container .tile .tile_description {
+    color: #FFCC00;
+    padding: 2;
+    margin: 0;
+    text-align: center;
+}
+#tile_container #tbl_tile {
+    width: 100%;
+}
+#tile_container .tile .tool_image {
+    padding: 1px;
+    float: right;
+    padding-bottom: 0px;
+    cursor: pointer;
+}
+
+#tile_container .bring {
+    margin: 0;
+    /* [disabled]clear: both; */
+}
+
+#tile_container .deftbl_continer {
+    margin: 2px auto;
+    float:left;
+    height: 100%;
+}
+
+#tile_container .title_content {
+    border: 1px solid #494949;
+    border-radius: 6px;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0px auto;
+    float: left;
+    min-height: 60px;
+}
+
+#tile_container .title_content .tile_action{
+    float: right;
+    padding:2px;
+    cursor: pointer;
+}
+
+#tile_container .title_content .tile_action img{
+    width:10px;
+    height: 10px;
+}
+
+#tile_container .title_content .tbl_tile_content {
+    width: 100%;
+    color: #FFF;
+    font-size: 11px;
+    font-family: monospace;
+    border-collapse: collapse;
+}
+.tbl_tile_content .tile_content_h_title {
+    font-family: "calibri1";
+    color: #FFF;
+    font-size: 11px;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    float:left;
+}
+.tbl_tile_content .tile_content_v_title {
+    font-family: "calibri1";
+    color: #FFF;
+    font-size: 11px;
+    text-align: left;
+    margin: 0;
+    padding: 0px 0px 0px 5px;
+}
+#tile_container .tbl_tile_content td, #tile_container .tbl_tile_content th {
+    border-color: #494949 !important;
+    padding: 2px;
+    margin: 0px;
+    text-align: left;
+    vertical-align: middle;
+}
+#tile_container .tbl_tile_content tr:first-child th {
+    border-top: none !important;
+}
+#tile_container .tbl_tile_content tr:last-child td {
+    border-bottom: none !important;
+}
+#tile_container .tbl_tile_content tr td:last-child {
+    border-right: none !important;
+}
+#tile_container .tbl_tile_content tr:first-child th:first-child, #tile_container .tbl_tile_content tr:first-child td:first-child {
+    border-radius: 6px 0 0 0;
+    border-left: none !important;
+    border-top: none !important;
+}
+#tile_container .tbl_tile_content tr:first-child th:last-child {
+    border-radius: 0 6px 0 0;
+    border-right: none !important;
+    border-top: none !important;
+}
+#tile_container .tbl_tile_content tr:last-child th:first-child, #tile_container .tbl_tile_content tr:last-child td:first-child {
+    border-radius: 0 0 0 6px;
+    border-left: none !important;
+    border-bottom: none !important;
+}
+#tile_container .tbl_tile_content tr:last-child td:last-child {
+    border-radius: 0 0 6px 0;
+    border-right: none !important;
+    border-bottom: none !important;
+}
+#tile_container .title_content_data {
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    display: inline;
+}
+
+#tile_container .title_content_img {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+
+#tile_container .tbl_tile_content tr th {
+    background-color: #333;
+}
+
+#tile_container .deftbl {
+    font-family: monospace;
+    font-size:11px;
+    color:#FFF;
+    width: 100%;
+    text-align: left;
+    border:1px solid #494949;
+    border-collapse: collapse;
+}
+
+#tile_container .deftbl tr td:first-child {
+
+}
+#tile_container .deftbl th,#tile_container .deftbl td {
+    width:auto !important;
+    border:1px solid #494949;
+    border-bottom: none;
+    border-top: none;
+}
+
+
+
+
+.adbdr
+{   
+    border-spacing: 0;
+    font-family: fantasy;
+    font-size: 12px;
+    color: #ffecec;
+}
+
+.adbdr .xpl
+{
+    background: -webkit-linear-gradient(#000, #222, #333); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#000, #222, #333); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#000, #222, #333); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#000, #222, #333); /* Standard syntax (must be last) */
+    color:#FFF;
+    padding : 5px;
+    font-size: 15px;
+}
+
+
+.adbdr .xpl:hover
+{
+    
+    text-shadow: 5px 5px 10px #FFF;
+}
+
+.adbdr td, .adbdr th{
+    border: #444 1px solid;
+    border-right: none;
+    border-bottom: none;
+    padding: 2px 4px;
+    word-wrap: break-word;
+}
+
+.adbdr th{    
+    background-color: #333;
+}
+
+.adbdr tr:first-child th:only-child{
+    border-radius: 0.6em 0.6em 0 0 !important;
+}
+
+.adbdr tr:last-child th:only-child{
+    border-radius: 0 0 0.6em 0.6em !important;
+}
+
+
+.adbdr tr:last-child td:only-child{
+    border-radius: 0 0 0.6em 0.6em !important;
+}
+
+.adbdr tr th:last-child, .adbdr tr td:last-child {
+    border-right: 1px solid #666;    
+}
+
+.adbdr tr:last-child th,.adbdr tr:last-child td{
+    border-bottom: 1px solid #666;    
+}
+
+.adbdr tr:first-child th:first-child{
+    border-radius: 0.6em 0 0 0;
+}
+
+
+.adbdr tr:first-child th:last-child{
+    border-radius: 0 0.6em 0 0;
+}
+
+.adbdr tr:last-child td:first-child{
+    border-radius: 0 0 0 0.6em;
+}
+.adbdr tr:last-child td:last-child{
+    border-radius: 0 0 0.6em 0;
+}
+
+
+
+.adbdr .tile_content_h_title {
+    font-family: fantasy;
+    color: #0cf;
+    font-size: 12px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    float:left;
+}
+.adbdr .tile_content_v_title {
+    font-family: fantasy;
+    color: #cea082;;
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    padding: 0px;
+    background-color: #333;
+}
+
+.adbdr .vnm
+{
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size:12px;
+    color:#AABE96;
+}
+
+.adbdr .vnmdot
+{
+    color: #FFF;
+}
+
+.adbdr .vno
+{
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size:12px;
+    color: #cea082;
+    font-weight:bolder;
+}
+
+
+.adbdr .rel
+{
+    font-family: sans-serif;
+    font-size:12px;
+    color: #cea082;
+    font-weight: normal;
+}
+
+.tile_name .main_name {
+    text-align: center;
+
+}
+
+
+.toolics {
+    float: right;
+}
+
+.msctr {
+    float: left;
+    width:75%;
+}
+
+.tile .detailbox
+{
+    text-align: center;
+    text-decoration:none;
+
+}
+
+
+.tile .measurement
+{
+    text-align: left;
+    text-decoration:none;
+    color: #9FF;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:10pt;
+	font-weight:bolder;
+}
+.tile .quantity
+{
+    text-align: left;
+    text-decoration:none;
+    color: #FFCC33;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+
+}
+
+
+.tile .our_vehicle {
+    color: #090;
+    background: url("../../images/vhcl_our2.png") no-repeat scroll 4px 50%;
+    padding-left: 24px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+.tile .other_vehicle {
+    color: #ff0066;
+    background: url("../../images/vhcl_other2.png") no-repeat scroll 4px 50%;
+    padding-left: 24px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+.tile .remarks {
+    color: #090;
+    background: url("../../images/remark.png") no-repeat scroll 4px 50%;
+    padding-left: 24px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+
+.tile .drivers{
+    color: #0CF;
+    background: url("../../images/drivers2.png") no-repeat scroll 4px 50%;
+    padding-left: 24px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    font-weight: bolder;
+}
+
+.tile .loaders{
+    color: #0CF;
+    background: url("../../images/loader2.png") no-repeat scroll 4px 50%;
+    padding-left: 24px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+.tile .labours{
+    color: #ffecec;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+
+.tile .default_labour{
+    color: greenyellow;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    background-image: url("../../images/tick.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    text-decoration: underline;
+    padding-right: 20px;
+}
+
+
+.tile .pop_labour{
+    color: #FFF;
+    background-color:  #4d90fe;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+.vwc_active
+{
+    color: #3C6;
+}
+
+.tile .wcntr_txt{
+    background: url("../../images/workcentre3.png") no-repeat scroll 4px 50%;
+    padding-left: 33px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+}
+.tile .wcntr{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+}
+.tile .phoneno {
+    color: #CA598C;
+    background: url("../../images/phone.png") no-repeat scroll 5px 35%;
+    padding-left:25px;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:10pt;
+}
+
+.tile .emailid {
+    color: #FFCC33;
+    background: url("../../images/e-mail.png") no-repeat scroll 5px 50%;
+    padding-left: 25px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+.tile .dob {
+    color: #b6f063;
+    background: url("../../images/calendar.png") no-repeat scroll 4px 50%;
+    padding-left: 24px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+
+
+
+.tile .bring_slNo {
+    float:left;
+    font-family: PlateiaBold;
+    font-size: 18px;
+    font-weight: bolder;
+    color:#ff0066;;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    min-width: 26px;
+    text-align: center;
+    
+    background: -webkit-linear-gradient(#000, #222, #333); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#000, #222, #333); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#000, #222, #333); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#000, #222, #333); /* Standard syntax (must be last) */
+}
+
+.tile_name .main_name div {
+    margin: 0px;
+    padding: 2px;
+    text-align: center;
+}
+
+.dv_availability
+{
+    border:#666 3px solid;
+	background-color:#000;
+}
+.dv_availability .avl_name
+{
+    font-family: PlateiaBold;
+    background: -webkit-linear-gradient(#666,#000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#666,#000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#666,#000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#666,#000); /* Standard syntax (must be last) */
+    color:#F96;
+    font-size: 13px;
+    font-weight: bolder;
+    text-align: center;
+    height:40px;
+}
+
+
+.dv_availability .avl_name2
+{
+    background: -webkit-linear-gradient(#000,#666); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#000,#666); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#000,#666); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#000,#666); /* Standard syntax (must be last) */
+    height:20px;
+}
+
+.dv_availability .tbl_availability
+{
+    color:#F0E5CC;
+    margin-bottom: 10px;
+    padding: 5px 15px;
+}

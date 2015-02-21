@@ -1,0 +1,43 @@
+
+div#taskMenu
+{
+    /*min-height: 300px;*/
+    margin: auto;
+    width: auto;
+}
+
+div#taskMenu ul.task
+{
+    width: 50%;
+    list-style:none;
+}
+
+div#taskMenu ul.innerUL
+{
+    list-style:none;
+}
+
+div#taskMenu ul.task li{
+    list-style:none;
+    width: auto;
+    text-align: left;
+}
+
+div#taskMenu   li.child{
+    color: gold;
+    font-size: 14pt;
+    font-weight: normal;
+}
+
+div#taskMenu   li .description{
+    color: #CCC;
+    font-size: 13pt;
+    font-weight: normal;
+    font-style: italic;
+}
+
+div#taskMenu   li.parent{
+    color: #8ed9f6;
+    font-size: 15pt;
+    font-weight: bold;
+}

@@ -1,0 +1,1122 @@
+@charset "utf-8";
+@import url("../webfonts/webfonts.css");
+
+
+
+/*			HEADER  */
+
+
+ .loader{
+    /* Ajax Loader */
+    background: url("../../images/tmpa/ajax/ajax-loader7.gif") no-repeat scroll 50% 50%;
+    padding-left: 0;
+    width:70%;
+    float: left;
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    /* [disabled]background-image: url(../images/bg2.jpg); */
+    /* [disabled]width: 100%; */
+}
+.dv_head_container {
+    padding: 0px;
+    /* [disabled]width: 1110px; */
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    background-color: #000;
+}
+#tbl-main tr td #logohead2 {
+    font-family: edunline;
+    font-size: 35px;
+    font-weight: bolder;
+    color: #FFA;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+}
+#tbl-main tr td #logohead3 {
+    font-family: ArgFlahm;
+    font-size: 22px;
+    color: #FFBFAA;
+}
+#tbl-main .logo_tr {
+
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#000), to(#333)); /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top, #000, #333); /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #000, #333); /* IE 10 */
+    background: -ms-linear-gradient(top, #000, #333); /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #000, #333);
+}
+
+#logohead {
+    font-family: "XXII ARABIAN ONENIGHTSTAND";
+    font-size: 70px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    color: #FE5494;
+    float: lef;
+}
+
+.dv_head_container #vesion
+{
+    font-family: calibri1;
+    font-size: 12px;
+    color: #FFF;
+}
+
+
+/*			--------------		MENU	---------------------*/
+#main-menu-container{
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#000), to(#333)); /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top, #000, #333); /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #000, #333); /* IE 10 */
+    background: -ms-linear-gradient(top, #000, #333); /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #000, #333);
+    height: 35px;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #000;
+}
+/*		-----------------		MENU	--------------------*/
+
+
+
+.dv_body_container {
+    margin: auto;
+    padding: 10px 10px 5px 10px;
+    /*background-color: #A12314;*/
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#000), to(#333)); /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top, #000, #333); /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #000, #333); /* IE 10 */
+    background: -ms-linear-gradient(top, #000, #333); /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #000, #333);
+}
+
+
+
+/*	Start - Message Alerts */
+.alert-box {
+    color:#555;
+    border-radius:10px;
+    font-family:Tahoma,Geneva,Arial,sans-serif;font-size:11px;
+    padding:10px 36px;
+    margin:0px;
+}
+
+.alert-box span.spn_title {
+    font-weight:bold;
+    text-transform:uppercase;
+}
+.error {
+    background:#ffecec url('../../../images/error.png') no-repeat 10px 50%;
+    border:1px solid #f5aca6;
+}
+.success {
+    background:#e9ffd9 url('../../../images/success.png') no-repeat 10px 50%;
+    border:1px solid #a6ca8a;
+}
+.warning {
+    background:#fff8c4 url('../../../images/warning.png') no-repeat 10px 50%;
+    border:1px solid #f2c779;
+}
+.notice {
+    background:#e3f7fc url('../../../images/notice.png') no-repeat 10px 50%;
+    border:1px solid #8ed9f6;
+}
+
+
+/*	End - Message Alerts */
+
+
+
+
+
+
+
+
+/*BOTTOM*/
+.dv-bottom-content .search-header {
+    color: #FF9900;
+    clear: both;
+    height: 35px;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #000;
+    font-family: Sreda;
+    font-size: 10pt;
+    text-align: center;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#000), to(#333)); /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top, #000, #333); /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #000, #333); /* IE 10 */
+    background: -ms-linear-gradient(top, #000, #333); /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #000, #333);
+
+}	
+.search-header .right_action:hover,
+.search-header .left_action_title:hover,
+.search-header #middle_pan:hover,
+.search-header .pagin_data:hover {
+    color: #FC3;
+    text-shadow: 5px 5px 10px #FFF;
+}
+.search-header .sec_name {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 16px;
+    line-height: 0px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #903;
+}
+.search-header h3 {
+    margin: 0px;
+    padding: 5px 3px;
+    height: 25px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12pt;
+}
+
+.search-header .add_action {
+    margin: 0px;
+    padding: 5px 20px 0px 0px;
+    float: right;
+    cursor: pointer;
+}
+
+#left_pan {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+#middle_pan {
+    height: 100%;
+}
+#right_pan {
+    float: right;
+
+}
+.left_action {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: auto;
+    border-left: 1px solid #999;
+    border-right: 1px solid #000;
+}
+.right_action {
+    float: left;
+    margin: 0px;
+    /* [disabled]padding: 5px 7px; */
+    border-left: 1px solid #333;
+    border-right: 1px solid #000;
+    height: 100%;
+}
+.left_action_title {
+    margin: 0px;
+    padding: 5px 7px;
+    border-bottom: none;
+    border-top: none;
+    height: 25px;
+    width: auto;
+}
+.left_action_content {
+    /*	background-color: #4A4A4A;*/
+    background-color: black;
+    width: auto;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #999;
+    border-right-color: #000;
+    border-bottom-color: #000;
+    border-left-color: #999;
+    color: #F90;
+}
+
+
+/*	------------	PAGINATION ----------------------	*/
+.pagin_data {
+    float: left;
+    margin: 0px;
+    padding: 5px 17% 5px 10px;
+    font-family: serif;
+    font-size: 12pt;
+    font-weight: normal;
+}
+.pagin_links {
+    /* [disabled]float: left; */
+    margin: 0px;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 5px;
+    cursor: pointer;
+}
+.full_tag {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+.first_tag {
+    float: left;
+}
+.prev_tag {
+    /* [disabled]float: left; */
+}
+.num_tag {
+    float: left;
+}
+.current_tag {
+    float: left;
+    color: #CF0;
+}
+.next_tag {
+    float: left;
+}
+.last_tag {
+    float: left;
+}
+.pagin_links .full_tag div {
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #999;
+    border-right-color: #000;
+    border-bottom-color: #000000;
+    border-left-color: #999;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0px;
+    padding: 2px 0px 0px 0px;
+    height: 22px;
+    width: 30px;
+    float: left;
+}
+.pagin_links .full_tag .current_tag {
+    border-top-width: 1px;
+    /* [disabled]border-right-width: 1px; */
+    border-bottom-width: 1px;
+    /* [disabled]border-left-width: 1px; */
+    border-top-style: solid;
+    /* [disabled]border-right-style: solid; */
+    border-bottom-style: solid;
+    /* [disabled]border-left-style: solid; */
+    border-top-color: #000;
+    /* [disabled]border-right-color: #999; */
+    border-bottom-color: #999;
+    /* [disabled]border-left-color: #000; */
+    font-weight: bold;
+}
+.pagin_links  a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+.pagin_links:hover a{
+    /*color: #00FF00;*/
+}
+
+.pagin_links .full_tag div:hover a{
+    color: #CF0;
+}
+
+/* ------------		END PAGINATION 	-----------------	*/
+
+.dv_patient_search_result_container {
+    clear: both;
+    min-height: 600px;
+    max-height: 600px;
+    overflow: scroll;
+    /* [disabled]background-color: #DC8A58; */
+    border-radius: 10px;
+    padding: 0px 1px;
+    width: 100%;
+}
+#tbl_search_results tr td {
+    margin: 0px;
+    padding: 2px;
+    width: 357px;
+}
+#tbl_search_results td {
+    text-decoration: none;
+}
+.tools {
+    background-color: #4A4A4A;
+    /*background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#933), to(#C60)); 
+    background: -webkit-linear-gradient(top, #933, #C60); 
+    background: -moz-linear-gradient(top, #933, #C60); 
+    background: -ms-linear-gradient(top, #933, #C60); 
+    background: -o-linear-gradient(top, #933, #C60);*/
+
+
+    margin: 1px 0px;
+    border-radius: 10px 10px 0px 0px;
+    /*padding-left:7px;*/
+    text-align: left;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #999;
+    border-right-color: #000;
+    border-bottom-color: #000;
+    border-left-color: #999;
+    height: 30px;
+    padding: 0px;
+    max-width: 400px;
+}
+.dv_tools_left {
+    float: left;
+    padding-left: 10px;
+    padding-top: 3px;
+    width: 20%;
+    margin: 0px;
+}
+.dv_tools_right {
+    float: right;
+    padding-right: 15px;
+    height: 27px;
+    width: 70%;
+}
+.toolbar_imgs {
+    width: 24px;
+    margin: 0px;
+    padding: 0px;
+    height: 24px;
+    cursor: pointer;
+}
+.patient_info {
+    margin: 0px;
+    padding-left: 10px;
+    padding-top: 3px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    overflow-y: scroll;
+    height: 100px;
+    max-height: 100px;
+    border-color: #000000;
+    color: #096C17;
+    /*clear: b;*/
+}
+
+.nonVerified{
+    /*background-image: url(../images/animated/ajax-loader3.gif); 
+    background-repeat: no-repeat;*/
+    background: url('../../images/warning.png')  no-repeat 75% 50%;
+}
+.details-head {
+    margin: 0px;
+    padding-top: 2px;
+    color: #FFFFFF;
+    text-align: center;
+    vertical-align: top;
+    cursor: pointer;
+    background-color: #4A4A4A;
+    height: 22px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-top-color: #999999;
+    border-right-color: #000000;
+    border-bottom-color: #000000;
+    border-left-color: #999999;
+}
+.details-head:hover {
+    color: #0FF;
+    text-shadow: 5px 5px 10px #FFF;
+}
+
+.bottom_slab {
+    margin: 0px;
+    padding-top: 2px;
+    text-align: center;
+    vertical-align: top;
+    background-color: #4A4A4A;
+    height: 22px;
+    border-top: 1px solid #999999;
+    border-right: 1px solid #000000;
+    border-left: 1px solid #999999;
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+
+/*-----------	BOARDER FORMATING ON COLLAPSE/EXPAND  	------------------*/
+
+.round_boarder {
+    /*Dont alter content of this class. Using in different part of the project*/
+    border-radius: 0px 0px 10px 10px;
+}
+.plane_boarder {
+    /*Dont alter content of this class. Using in different part of the project*/
+    border-radius: 0px 0px 0px 0px;
+    background-color: #4A4A4A;
+}
+/*-------------------- 		END BOARDER FORMATINGS	------------------------------------------------*/
+
+.patient_deatails {
+    padding: 0px 5px 13px 13px;
+    background-color: #4A4A4A;
+    border-radius: 0px 0px 10px 10px;
+    text-align: left;
+    color: #FFF;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 10pt;
+    line-height: 20px;
+    border-top-color: #999;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: none;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-color: #000000;
+    border-bottom-color: #759159;
+    border-left-color: #999999;
+    /* [disabled]background-image: url(../images/TitleBanner.jpg); */
+    font-weight: bolder;
+}
+
+.patient_deatails .wage_table{
+    color:white;
+    border: 1px solid;
+    border-color: #FFF;
+    border-collapse: collapse;
+}
+
+.patient_deatails .wage-bord{
+    background-color:#FFF;
+    color: #7F4614;
+    font-family: Domelen;
+    letter-spacing: 2px;
+}        
+
+.patient_deatails .wage_table th,.patient_deatails .wage_table td{
+
+    border: 1px solid;
+    border-color: #FFF;
+    padding: 2px;
+    text-align: center;
+}
+
+.patient_deatails .wage_table th{
+
+    font-size: 12px;
+}
+
+.patient_deatails .wage_table td{
+
+    font-size: 12px;
+    font-weight: 100;
+}
+
+
+.patient_deatails .dt_tbl{
+    color:white;
+}
+
+.patient_deatails .dt_tbl th{
+    text-align: left;
+    font-size: 12px;
+    padding: 2px;
+    width: 35%;
+    height: 25px;
+}
+
+.patient_deatails .dt_tbl td{
+    text-align: left;
+    font-size: 12px;
+    padding: 2px;
+	font-weight:100;
+}
+
+
+
+
+
+
+
+
+.no_sel {
+    background-color: #FFF;
+    color: #000000;
+    font-weight: normal;
+    max-width: 389px;
+}
+.sel {
+    background-color: #FCAD36;
+    color: #000;
+    max-width: 389px;
+}
+.tools .dv_tools_right .tools_case {
+    margin: 0px;
+    padding: 0px;
+    height: 27px;
+    float: right;
+    /*width: 30px;*/
+    padding-top: 3px;
+}
+.dv_tools_left .sl_no {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bolder;
+    color: #00FF00;
+}
+.tools .dv_tools_right a {
+    margin: 0px;
+    padding: 0px;
+}
+.dv_note_container .dv_tools .middle_tool {
+    margin: 0px;
+    padding: 10px 5px 10px 40px;
+}
+.case_tit .dv_casetools {
+    float: right;
+    margin: 0px;
+    padding: 5px 100px 5px 0px;
+}
+
+
+
+
+
+/*		ENC CONTENT		*/
+
+
+/*------------ START FOOTER  --------------------------*/
+#footer{
+    text-align: center;
+    color: #dbb450;
+    clear: both;
+    border-top: 1px solid #FFF;
+    border-bottom: 2px solid #000;
+    background-color: #000000;
+    font-family: Sreda;
+    font-size: 10pt;
+    /* [disabled]width: 1110px; */
+    margin: 0px auto;
+    padding: 0px;
+
+}
+#footer .spn-text {
+    margin: 5px;
+    display: inline-block;
+}
+#footer .spn-img {
+    padding-top: 10px;
+    display: inline-block;
+    margin: 5px;
+}
+#footer:hover {
+    color: #0FF;
+}
+
+/*------------	END FOOTER	--------------------------*/
+.pagin_links  .current_tag a {
+    color: #CF0;
+}
+.user-nav {
+    font-family: "Sreda";
+    font-size: 13pt;
+    color: #9C3;
+    display: inline-block;
+    float: right;
+    padding: 5px;
+    margin: 3px 0 0;
+}
+
+.logout-nav {
+    display: inline-block;
+    float: right;
+    margin: 5px 0 0 5px;
+    padding: 5px;
+}
+.title_container #form-title span {
+    /* [disabled]display: table-row-group; */
+    /* [disabled]vertical-align: middle; */
+}
+#tbl_sorter tr {
+    height: 10px;
+}
+.tbl_input_inner #tbl_sorter {
+
+}
+#tbl_sorter #titlesort {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #F00;
+    text-decoration: underline;
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+}
+#tbl_sorter .clrsrt {
+    height: 30px;
+    width: 100px;
+
+    border: 1px solid;
+    border-top-color: #FFF;
+    border-right-color: #000;
+    border-bottom-color: #000;
+    border-left-color: #FFF;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#666), to(#999)); /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top, #666, #999); /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #666, #999); /* IE 10 */
+    background: -ms-linear-gradient(top, #666, #999); /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #666, #999);
+    color: #036;
+    font-family: Sreda;
+    font-size: 10pt;
+    font-weight:bolder;
+    margin: 0px;
+    padding: 3px 10px;
+    text-transform: uppercase;
+}
+#tbl_sorter .clrsrt:hover {
+    color: #0FF;
+    box-shadow: 0 0 20px #FF9900 ;/*#9ecaed*/
+    text-shadow: 5px 5px 10px #FFF;
+}
+
+.field_error_msg{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+#tbl_plan {
+    border-collapse: collapse;
+    width: 70%;
+}
+#tbl_plan thead tr {
+    height: 15px;
+}
+#tbl_plan thead tr th {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 12px;
+    color: #FFF;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #A65B1A), color-stop(1, #7F4614) );
+    background: -moz-linear-gradient( center top, #A65B1A 5%, #7F4614 100% );
+
+
+
+
+
+
+
+
+
+
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#A65B1A', endColorstr='#7F4614');
+    background-color: #A65B1A;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid;
+    border-color: #DF8839;
+    font-weight: bolder;
+}
+
+
+#tbl_plan tfoot tr {
+    height: 15px;
+}
+#tbl_plan tfoot tr th {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #FFF;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #A65B1A), color-stop(1, #7F4614) );
+    background: -moz-linear-gradient( center top, #A65B1A 5%, #7F4614 100% );
+
+
+
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#A65B1A', endColorstr='#7F4614');
+    background-color: #A65B1A;
+    padding: 5px;
+}
+
+#tbl_plan tbody tr {
+    height: 30px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: #D6B874;
+    border-bottom-color: #D6B874;
+    color: #965217;
+}
+
+#tbl_plan tbody tr:nth-child(odd) {
+    background: #FFF;
+}
+
+
+
+#tbl_plan tbody tr:nth-child(even) {
+    background: #F0E5CC;
+}
+
+#tbl_plan tbody tr td {
+    font-family: "Dejavu mono";
+    font-size: 12px;
+    font-style: normal;
+    padding: 0px 10px;
+    border-left: 1px solid #DF8839;
+    border-right: 1px solid #DF8839;
+    border-bottom: none;
+    border-top: none;
+}
+#tbl_sorter tr td {
+    width: 70px;
+    text-align: left;
+}
+/*
+.search-header #right_pan .right_action {
+        margin: 0px;
+        padding: 0px;
+        float: left;
+}
+*/
+.search-header .settings {
+    margin: 0px;
+    padding: 8px 5px 3px 5px;
+    float: left;
+    height: 24px;
+}
+.search-header .settings_btn {
+    margin: 0px;
+    padding: 5px;
+    float: left;
+    height: 25px;
+}
+.clear_boath {
+    clear: both;
+}
+.search-header  .settings_btn:hover {
+    cursor: pointer;
+}
+.tabed_content {
+    padding: 0px;
+    margin: 0px;
+}
+
+.tab_selected{
+    color: #FF0;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#333), to(#ccc)); /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top, #333, #ccc); /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #333, #ccc); /* IE 10 */
+    background: -ms-linear-gradient(top, #333, #ccc); /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #333, #ccc);
+}
+
+.tabed_content .acc_title {
+    color: #FFF;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #A65B1A), color-stop(1, #7F4614) );
+    background: -moz-linear-gradient( center top, #A65B1A 5%, #7F4614 100% );
+
+
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#A65B1A', endColorstr='#7F4614');
+    background-color: #A65B1A;
+    margin: 2px 0px;
+    padding: 5px;
+    text-align: center;
+}
+.tabed_content .acc_title .sbr {
+    color: #0FF;
+    padding: 0px 5px;
+}
+.tabed_content .acc_title .date {
+    color: #0F6;
+    padding: 0px 5px;
+}
+
+
+
+.collapse_btn{
+    margin: 0px;
+    border-left: 1px solid #999;
+    border-right: 1px solid #000;
+    border-top: 1px solid #999;
+    border-bottom: 2px solid #000;
+    color: #FF9900;
+    /*clear: both;*/
+    height: 27px;
+    width: 100px;
+    vertical-align: central;
+    font-family: Sreda;
+    font-size: 10pt;
+    text-align: center;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#333), to(#666)); /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top, #333, #666); /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #333, #666); /* IE 10 */
+    background: -ms-linear-gradient(top, #333, #666); /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #333, #666);
+}
+
+.collapse_btn:hover{
+    color: #FC3;
+    text-shadow: 5px 5px 10px #FFF;
+}
+.patient_info .nameSpan {
+    font-size: 14px;
+    font-weight: bolder;
+    color: #000;
+}
+
+.patient_info .empcat
+{
+    color: white;
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 5px 5px;
+    border-radius: 3px;
+    min-width: 50px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.patient_info .active_color
+{
+    background: -webkit-linear-gradient(#030, #0F9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#030, #0F9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#030, #0F9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#030, #0F9); /* Standard syntax (must be last) */
+}
+
+
+.patient_info .inactive_color
+{
+    background: -webkit-linear-gradient(red, orange); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, orange); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, orange); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(red, orange); /* Standard syntax (must be last) */
+}
+
+.patient_info .admin_color
+{
+    background: -webkit-linear-gradient(#030, #0F9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#030, #0F9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#030, #0F9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#030, #0F9); /* Standard syntax (must be last) */
+}
+
+.patient_info .partner_color
+{
+    background: -webkit-linear-gradient(#FF6600, #FC9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FF6600, #FC9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FF6600, #FC9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FF6600, #FC9); /* Standard syntax (must be last) */
+}
+
+.patient_info .staff_color
+{
+    background: -webkit-linear-gradient(#960, #FC6); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#960, #FC6); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#960, #FC6); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#960, #FC6); /* Standard syntax (must be last) */
+}
+
+.patient_info .driver_color
+{
+    background: -webkit-linear-gradient(#750000, #F5B4DD); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#750000, #F5B4DD); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#750000, #F5B4DD); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#750000, #F5B4DD); /* Standard syntax (must be last) */
+}
+
+.patient_info .loader_color
+{
+    background: -webkit-linear-gradient(#006, #6CF); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#006, #6CF); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#006, #6CF); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#006, #6CF); /* Standard syntax (must be last) */
+}
+
+
+
+.beforeAjax{
+    margin: auto;
+    padding: auto;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 400px;
+    background-color: #FFF;
+}
+
+.beforeAjax span{
+    color: #BD4040;
+    font-family: serif;
+    font-size: 14pt;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+
+tr.wlog_title
+{
+    background-color: #ddd !important;
+}
+tr.wlog_title td
+{
+    color:#0362FD !important;
+    text-align: center ;
+    font-size:13pt !important;
+    font-family: cursive;
+    font-weight: boloder !important;
+    text-decoration: underline;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+span.wlg_name
+{
+    font-size: 12pt;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.wagedet
+{
+   
+    margin: 0px 1px; 
+    padding:0px;
+    float: left;
+}
+
+.wagedet .txt
+{
+    background: -webkit-linear-gradient(#999, #666); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#999, #666); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#999, #666);/* For Firefox 3.6 to 15 */
+    background: linear-gradient(#999, #666); /* Standard syntax (must be last) */
+    margin: 0px;
+    padding:4px;
+    color:#FFF;
+    font-size:12px;
+    font-weight: bold;
+    border-radius: 7px 0px 0px 7px;
+    border:1px solid #666 ;
+    border-right: none;
+    float: left;
+}
+
+.wagedet .cat
+{
+    background: -webkit-linear-gradient(#999, #666); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#999, #666); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#999, #666);/* For Firefox 3.6 to 15 */
+    background: linear-gradient(#999, #666); /* Standard syntax (must be last) */
+    margin: 0px;
+    padding:4px;
+    color:#FFF;
+    font-size:12px;
+    font-weight: bold;
+    border-radius: 7px 0px 0px 7px;
+    border:1px solid #666 ;
+    border-right: none;
+    float: left;
+    min-width: 45px;
+}
+
+.wagedet .val
+{
+    border:1px solid #666;
+    background-color: #FFF;
+    font-family: calibri1;
+    border-radius: 0px 7px 7px 0px;
+    border-left: none;
+    margin: 0px;
+    padding:4px 5px 4px 4px;
+    float: left;
+    min-width: 50px;
+    text-align: right;
+}
+
+.wagedet .name
+{
+    border:1px solid #666;
+    background-color: #FFF;
+    font-family: calibri1;
+    border-radius: 0px 7px 7px 0px;
+    border-left: none;
+    margin: 0px;
+    padding:4px 5px 4px 4px;
+    float: left;
+    min-width: 100px;
+    text-align: left;
+}
+
+.wlog_changed
+{
+    color: red;
+}
+
+.wlog_latest
+{
+    background-color: #FBE6F2;
+}
+
+.vfy_img
+{
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.wlog_warnings
+{
+    
+    background: url('../../images/warn.png')  no-repeat 5px 50%;
+    padding-left:25px !important;
+}
+
+.nodata
+{
+    color: #FBE6F2;
+    font-weight: normal;
+    font-family: 'Dejavu mono';
+}
+
+
+.patient_info .inactive {    
+    color: #ff6600;
+    text-decoration: line-through;
+}
+
+.tshoot_wlog{
+    color: #003399;
+    background: url("../../images/tshoot.png") no-repeat scroll 4px 50%;
+    padding-left: 24px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    font-weight: bolder;
+}

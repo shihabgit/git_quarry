@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+/*  --------------   START COLLAPSE		----------------------------------------------------*/
+.collapse_container {
+	/* You don't add/remove anythin here bacause it is a common style for 'collapsable' used by other part of this site.*/
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	max-width: 400px;
+}
+
+.p-collapse{
+	/* You don't add/remove anythin here bacause it is a common style for 'collapsable' used by other part of this site.*/
+}
+
+
+
+.dv-collaps{
+	/* You don't add/remove anythin here bacause it is a common style for 'collapsable' used by other part of this site.*/
+	position: absolute;
+	/* Position top will be set by jquery. Because the height of the 'p-collaps' is different in different places.*/
+	/*top: 25px;*/
+	left: 0px;
+	right: 0px;
+	z-index: 1;
+	display: none;
+}
+/*-------------------- 		END COLLAPSE	------------------------------------------------*/
+

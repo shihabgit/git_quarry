@@ -1,0 +1,230 @@
+/*
+ * CSS Styles that are needed by jScrollPane for it to operate correctly.
+ *
+ * Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
+ * may not operate correctly without them.
+ */
+
+.jspContainer {
+	overflow: hidden;
+	position: relative;
+}
+.jspPane {
+	position: absolute;
+}
+.jspVerticalBar {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 8px;
+	height: 100%;/*background: black;*/
+}
+.jspHorizontalBar {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 16px;
+	background: red;
+}
+.jspCap {
+	display: none;
+}
+.jspHorizontalBar .jspCap {
+	float: left;
+}
+.jspTrack {
+	/*background: #dde;*/
+	position: relative;
+}
+.jspDrag {
+	background: #bbd;
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.jspHorizontalBar .jspTrack, .jspHorizontalBar .jspDrag {
+	float: left;
+	height: 100%;
+}
+.jspArrow {
+	text-indent: -20000px;
+	display: block;
+	cursor: pointer;
+	padding: 0;
+	margin: 0;
+}
+.jspArrow.jspDisabled {
+	cursor: default;
+	background: #80808d;
+}
+.jspVerticalBar .jspArrow {
+	height: 16px;
+}
+.jspHorizontalBar .jspArrow {
+	/*width: 16px;*/
+	float: left;
+	height: 100%;
+}
+.jspVerticalBar .jspArrow:focus {
+	outline: none;
+}
+.jspCorner {
+	background: #eeeef4;
+	float: left;
+	height: 100%;
+}
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+* html .jspCorner {
+	margin: 0 -3px 0 0;
+}
+/* _______________By Shihab_____________________ */
+
+/* -------------Green color scroll bar -------------*/
+
+.greenScroll .jspDrag {
+	background: -webkit-linear-gradient(left, #060, #0C3, #060); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #060, #0C3, #060); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #060, #0C3, #060); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #060, #0C3, #060); /* Standard syntax */
+}
+
+
+.greenScroll .jspTrack {
+}
+.greenScroll .jspArrow {
+	border-style: solid;
+	width: 0;
+	height: 0;
+	content: " ";
+}
+.greenScroll .jspArrowUp {
+	border-color: transparent transparent #090 transparent;
+	border-width: 2px 4px 10px 4px;
+}
+.greenScroll .jspArrowDown {
+	border-color: #090 transparent transparent transparent;
+	border-width: 10px 4px 2px 4px;
+}
+.greenScroll .jspArrow.jspDisabled {
+	cursor: default;
+	background: inherit;
+}
+/* -------------Blue color scroll bar -------------*/
+
+.blueScroll .jspDrag {
+	background: -webkit-linear-gradient(left, #009, #0CF, #009); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #009, #0CF, #009); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #009, #0CF, #009); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #009, #0CF, #009); /* Standard syntax */
+}
+.blueScroll .jspTrack {
+}
+.blueScroll .jspArrow {
+	border-style: solid;
+	width: 0;
+	height: 0;
+	content: " ";
+}
+.blueScroll .jspArrowUp {
+	border-color: transparent transparent #00F transparent;
+	border-width: 2px 4px 10px 4px;
+}
+.blueScroll .jspArrowDown {
+	border-color: #00F transparent transparent transparent;
+	border-width: 10px 4px 2px 4px;
+}
+.blueScroll .jspArrow.jspDisabled {
+	cursor: default;
+	background: inherit;
+}
+/* -------------Red color scroll bar -------------*/
+
+.redScroll .jspDrag {
+	background: -webkit-linear-gradient(left, #C60000, #F63, #C60000); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #C60000, #F63, #C60000); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #C60000, #F63, #C60000); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #C60000, #F00, #F96, #F00, #C60000); /* Standard syntax */
+}
+.redScroll .jspTrack {
+}
+.redScroll .jspArrow {
+	border-style: solid;
+	width: 0;
+	height: 0;
+	content: " ";
+}
+.redScroll .jspArrowUp {
+	border-color: transparent transparent #FF0000 transparent;
+	border-width: 2px 4px 10px 4px;
+}
+.redScroll .jspArrowDown {
+	border-color: #FF0000 transparent transparent transparent;
+	border-width: 10px 4px 2px 4px;
+}
+.redScroll .jspArrow.jspDisabled {
+	cursor: default;
+	background: inherit;
+}
+/* -------------Golden color scroll bar -------------*/
+
+
+.goldenScroll .jspDrag {
+	background: -webkit-linear-gradient(left, #C60, gold, #C60); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #C60, gold, #C60); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #C60, gold, #C60); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #C60, gold, #C60); /* Standard syntax */
+}
+.goldenScroll .jspTrack {
+}
+.goldenScroll .jspArrow {
+	border-style: solid;
+	width: 0;
+	height: 0;
+	content: " ";
+}
+.goldenScroll .jspArrowUp {
+	border-color: transparent transparent #C60 transparent;
+	border-width: 2px 4px 10px 4px;
+}
+.goldenScroll .jspArrowDown {
+	border-color: #C60 transparent transparent transparent;
+	border-width: 10px 4px 2px 4px;
+}
+.goldenScroll .jspArrow.jspDisabled {
+	cursor: default;
+	background: inherit;
+}
+
+
+/* -------------Balck color scroll bar -------------*/
+
+
+.blackScroll .jspDrag {
+	background: -webkit-linear-gradient(left, #000, #333, #000); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #000, #333, #000); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #000, #333, #000); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #000, #333, #000); /* Standard syntax */
+}
+.blackScroll .jspTrack {
+}
+.blackScroll .jspArrow {
+	border-style: solid;
+	width: 0;
+	height: 0;
+	content: " ";
+}
+.blackScroll .jspArrowUp {
+	border-color: transparent transparent #000 transparent;
+	border-width: 2px 4px 10px 4px;
+}
+.blackScroll .jspArrowDown {
+	border-color: #000 transparent transparent transparent;
+	border-width: 10px 4px 2px 4px;
+}
+.blackScroll .jspArrow.jspDisabled {
+	cursor: default;
+	background: inherit;
+}

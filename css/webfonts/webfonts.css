@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: 'KaushanScript Regular';
+	src: url('KaushanScript-Regular.otf') format('truetype');
+}
+@font-face {
+	font-family: 'calibri4';
+	src: url('CALIBRIZ.TTF') format('truetype');
+}
+@font-face {
+	font-family: 'Molot';
+	src: url('Molot.otf') format('truetype');
+}
+@font-face {
+	font-family: 'orbitron light';
+	src: url('orbitron-light.otf') format('truetype');
+}
+@font-face {
+	font-family: 'BodoniXT';
+	src: url('BodoniXT.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'edunline';
+	src: url('edunline.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'calibri1';
+	src: url('CALIBRI.TTF') format('truetype');
+}
+@font-face {
+	font-family: 'XXII ARABIAN ONENIGHTSTAND';
+	src: url('XXII ARABIAN-ONENIGHTSTAND.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'ArgFlahm';
+	src: url('ArgFlahm.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Sreda';
+	src: url('Sreda.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Oranienbaum';
+	src: url('Oranienbaum.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Courier Prime Bold';
+	src: url('Courier_Prime_Bold.ttf') format('truetype');
+}@font-face {
+	font-family: 'Courier Prime';
+	src: url('Courier_Prime.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Dejavu mono';
+	src: url('DejaVuSansMono.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'LoveJoy';
+	src: url('LoveJoy.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'MTCORSVA';
+	src: url('MTCORSVA.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'PlateiaBold';
+	src: url('Plateia Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Domelen';
+	src: url('Domelen.ttf') format('truetype');
+}
+
+
+@font-face {
+	font-family: 'RoundNumber1';
+	src: url('numberpile.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'WHITEBLD';
+	src: url('WHITEBLD.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'VINET';
+	src: url('VINET.ttf') format('truetype');
+}
